@@ -1,0 +1,13 @@
+# Godot
+.godot/
+.import/
+export_credentials.cfg
+*.translation
+
+# Android builds / signing
+*.apk
+*.aab
+*.idsig
+*.keystore
+*.jks
+android/

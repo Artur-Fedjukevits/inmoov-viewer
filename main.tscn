@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://cfkv0l8wsoqbq"]
+
+[ext_resource type="Script" uid="uid://dnteemgmm5vjl" path="res://scripts/main.gd" id="1"]
+[ext_resource type="Script" uid="uid://djcd6li5frcxm" path="res://scripts/inmoov_robot.gd" id="2"]
+[ext_resource type="Script" uid="uid://b6ll8y7i3840p" path="res://scripts/orbit_camera.gd" id="3"]
+
+[sub_resource type="Environment" id="env"]
+background_mode = 1
+background_color = Color(0.84, 0.83, 0.81, 1)
+ambient_light_source = 2
+ambient_light_color = Color(0.75, 0.75, 0.78, 1)
+ambient_light_energy = 0.5
+tonemap_mode = 2
+
+[node name="Main" type="Node3D" unique_id=1603840414]
+script = ExtResource("1")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1656315808]
+environment = SubResource("env")
+
+[node name="Sun" type="DirectionalLight3D" parent="." unique_id=1112827740]
+transform = Transform3D(0.866, -0.25, 0.433, 0, 0.866, 0.5, -0.5, -0.433, 0.75, 0, 3, 0)
+light_energy = 0.9
+shadow_enabled = true
+
+[node name="Robot" type="Node3D" parent="." unique_id=156814509]
+script = ExtResource("2")
+
+[node name="Camera" type="Camera3D" parent="." unique_id=1317217718]
+fov = 35.0
+script = ExtResource("3")
