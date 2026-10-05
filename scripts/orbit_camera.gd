@@ -1,3 +1,7 @@
+# Copyright (C) 2026 Artur-Fedjukevits
+# Author: Artur-Fedjukevits
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 ## Orbit camera: mouse (LMB — rotate, RMB/MMB — pan, wheel — zoom)
 ## and touch (1 finger — rotate, 2 fingers — pinch zoom + pan).
 extends Camera3D

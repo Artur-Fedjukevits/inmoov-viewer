@@ -1,3 +1,7 @@
+# Copyright (C) 2026 Artur-Fedjukevits
+# Author: Artur-Fedjukevits
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 ## Screenshot of the “Robot” tab in calibration mode (requires the mock on 9090):
 ## xvfb-run godot --path . --rendering-method gl_compatibility -s res://tests/link_screenshot.gd
 extends SceneTree

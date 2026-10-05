@@ -1,5 +1,7 @@
 # InMoov i2 Viewer
 
+_Author: Artur-Fedjukevits_
+
 A Godot 4 app (desktop + Android) that draws the **InMoov i2** humanoid robot in 3D from its URDF and lets you
 pose it, check self-collisions, record gestures, and — optionally — mirror or control a real robot over
 [rosbridge](https://github.com/RobotWebTools/rosbridge_suite).
@@ -88,6 +90,6 @@ Troubleshooting:
 
 ## License
 
-- **Code** (`scripts/`, `tests/`, project files): [MIT](LICENSE).
+- **Code** (`scripts/`, `tests/`, project files): [GNU GPL v3.0 or later](LICENSE), © 2026 Artur-Fedjukevits.
 - **Robot model** (`robot/`): derived from the open-source [InMoov](https://inmoov.fr) design by Gaël Langevin,
   licensed under **CC BY-NC 4.0** (attribution, non-commercial). These files keep that license.

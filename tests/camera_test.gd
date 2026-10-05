@@ -1,3 +1,7 @@
+# Copyright (C) 2026 Artur-Fedjukevits
+# Author: Artur-Fedjukevits
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 ## Camera window test: needs a stream, e.g.
 ##   python3 tests/mock_camera_ws.py
 ## then: godot --headless --path . -s res://tests/camera_test.gd [-- 127.0.0.1]

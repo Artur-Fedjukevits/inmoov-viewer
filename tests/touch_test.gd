@@ -1,3 +1,7 @@
+# Copyright (C) 2026 Artur-Fedjukevits
+# Author: Artur-Fedjukevits
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 ## Simulated finger touch on the first slider (xvfb). Prints the value before/after.
 extends SceneTree
 

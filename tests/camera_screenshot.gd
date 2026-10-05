@@ -1,3 +1,7 @@
+# Copyright (C) 2026 Artur-Fedjukevits
+# Author: Artur-Fedjukevits
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 ## UI screenshot with the camera window (requires mock_camera_ws.py):
 ## SHOT_OUT=/tmp/cam.png xvfb-run godot --path . --rendering-method gl_compatibility -s res://tests/camera_screenshot.gd
 extends SceneTree

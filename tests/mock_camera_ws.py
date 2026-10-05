@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# Copyright (C) 2026 Artur-Fedjukevits
+# Author: Artur-Fedjukevits
+# SPDX-License-Identifier: GPL-3.0-or-later
 """Mock robot video stream: ws://0.0.0.0:9091, each frame is one binary JPEG 640×480 message, 15 fps, q80.
 A slow client skips frames (each client has a queue of 1 frame).
   pip install websockets pillow;  python3 mock_camera_ws.py [--port 9091] [--fps 15]

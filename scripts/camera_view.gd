@@ -1,3 +1,7 @@
+# Copyright (C) 2026 Artur-Fedjukevits
+# Author: Artur-Fedjukevits
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 ## Robot camera video window (OAK-D Lite) — on the right, over the 3D view.
 ##
 ## The robot sends each frame as a single binary WebSocket message (ws://<ip>:9091), as is:

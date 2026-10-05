@@ -1,3 +1,7 @@
+# Copyright (C) 2026 Artur-Fedjukevits
+# Author: Artur-Fedjukevits
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 ## Link between the 3D model and the real robot via rosbridge + urdf_bridge (inmoov_control).
 ##
 ## All angles use the URDF convention: the “servo degrees ↔ URDF radians” conversion is done by

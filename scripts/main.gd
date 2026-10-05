@@ -1,3 +1,7 @@
+# Copyright (C) 2026 Artur-Fedjukevits
+# Author: Artur-Fedjukevits
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 ## Main scene: joint sliders, click-to-pick body parts, gestures, self-collision checking, robot link, FPS.
 extends Node3D
 

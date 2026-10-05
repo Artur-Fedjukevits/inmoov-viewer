@@ -1,3 +1,7 @@
+# Copyright (C) 2026 Artur-Fedjukevits
+# Author: Artur-Fedjukevits
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 ## Minimal rosbridge v2 protocol client (WebSocket + JSON).
 ## Subscriptions and advertisements are remembered and replayed after reconnecting.
 ##

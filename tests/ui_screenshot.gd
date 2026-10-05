@@ -1,3 +1,7 @@
+# Copyright (C) 2026 Artur-Fedjukevits
+# Author: Artur-Fedjukevits
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 ## UI screenshot: arms out to the sides, the given joint selected. SHOT_OUT=file SHOT_PART=part name (optional)
 ## xvfb-run godot --path . --rendering-method gl_compatibility --resolution 1280x720 -s res://tests/ui_screenshot.gd
 extends SceneTree

@@ -1,5 +1,7 @@
 # Gestures: file format and server protocol
 
+_Author: Artur-Fedjukevits_
+
 The **Gestures** tab saves the model's pose to JSON and can publish the file to the robot over rosbridge.
 **Body and face are always separate files and separate topics** (on the robot they correspond to the
 `BODY_JOINTS` and `FACE_JOINTS` tables; face = jaw, upper lip, cheeks, eyebrows, forehead, eyes, eyelids;

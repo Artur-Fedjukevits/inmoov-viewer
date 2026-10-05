@@ -1,3 +1,7 @@
+# Copyright (C) 2026 Artur-Fedjukevits
+# Author: Artur-Fedjukevits
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 ## End-to-end link test with the “robot”: requires a running mock
 ##   python3 mock_rosbridge_robot.py --port 9090 --demo
 ## then: godot --headless --path . -s res://tests/link_test.gd [-- ws://127.0.0.1:9090]
